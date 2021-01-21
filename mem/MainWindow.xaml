@@ -1,0 +1,29 @@
+﻿<Window x:Class="mem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="401.908" Width="842.023">
+    <Grid>
+
+
+
+        <ComboBox x:Name="mCategoryCb" HorizontalAlignment="Left" Margin="10,215,0,0" VerticalAlignment="Top" Width="165" SelectionChanged="mCategoryCb_SelectionChanged"/>
+        <Image x:Name="imageBox1" HorizontalAlignment="Left" Height="312" Margin="379,10,0,0" VerticalAlignment="Top" Width="397"/>
+        <ListBox x:Name="mList" HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" VerticalAlignment="Top" Width="165" SelectionChanged="mList_SelectionChanged" DisplayMemberPath="{Binding _mName}"/>
+        <TextBox x:Name="mNameTb" HorizontalAlignment="Left" Height="23" Margin="180,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="mSearch" Content="найти" HorizontalAlignment="Left" Margin="305,10,0,0" VerticalAlignment="Top" Width="74" Height="23" Click="mSearch_Click" FontWeight="Bold"/>
+        <Button x:Name="add_mems" Content="Добавить мем" HorizontalAlignment="Left" Margin="10,244,0,0" VerticalAlignment="Top" Width="165" Click="add_mems_Click" Height="37" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="memeNameTb" HorizontalAlignment="Left" Height="24" Margin="254,213,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="memeCategorTb" HorizontalAlignment="Left" Height="24" Margin="254,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="memeTagsTb" HorizontalAlignment="Left" Height="51" Margin="254,271,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="removButton" Content="удалить выбранный" HorizontalAlignment="Left" Margin="30,286,0,0" VerticalAlignment="Top" Width="120" Height="26" Click="removButton_Click"/>
+        <TextBox x:Name="tagsSearchTb" HorizontalAlignment="Left" Height="23" Margin="180,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="tagsSearchBut" Content="tags поиск" HorizontalAlignment="Left" Margin="305,38,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="tagsSearchBut_Click"/>
+        <Button x:Name="savejson" Content="сохранить" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" Width="75" Click="savejson_Click"/>
+        <Button x:Name="openJson" Content="открыть" HorizontalAlignment="Left" Margin="90,329,0,0" VerticalAlignment="Top" Width="75" Click="openJson_Click"/>
+
+    </Grid>
+</Window>

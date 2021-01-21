@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ArrayOfMemeClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <memeClass>
+    <_mName>sad sa </_mName>
+    <_mCategory>cat1</_mCategory>
+    <_mTags>
+      <string>sad</string>
+      <string>sd</string>
+    </_mTags>
+    <_bitmap>https://cdn.pixabay.com/photo/2021/01/01/14/07/chapel-5878656_960_720.jpg</_bitmap>
+    <_mId>0</_mId>
+  </memeClass>
+  <memeClass>
+    <_mName>dsadsads </_mName>
+    <_mCategory>cat2</_mCategory>
+    <_mTags>
+      <string>gdhyu</string>
+      <string>fgh</string>
+      <string>fdgh</string>
+    </_mTags>
+    <_bitmap>https://cdn.pixabay.com/photo/2021/01/01/14/07/chapel-5878656_960_720.jpg</_bitmap>
+    <_mId>1</_mId>
+  </memeClass>
+  <memeClass>
+    <_mName>gfjtrhg fd fdg </_mName>
+    <_mCategory>cat3</_mCategory>
+    <_mTags>
+      <string>g</string>
+      <string>fdsg</string>
+      <string>sdg</string>
+      <string>d</string>
+    </_mTags>
+    <_bitmap>https://cdn.pixabay.com/photo/2020/12/31/05/02/sparrow-5875379_960_720.jpg</_bitmap>
+    <_mId>2</_mId>
+  </memeClass>
+  <memeClass>
+    <_mName>fgrg sdf sgsd </_mName>
+    <_mCategory>cat3</_mCategory>
+    <_mTags>
+      <string>asdf</string>
+      <string>sdg</string>
+      <string>g</string>
+      <string>df</string>
+    </_mTags>
+    <_bitmap>https://cdn.pixabay.com/photo/2020/12/06/19/56/sunset-5809870_960_720.jpg</_bitmap>
+    <_mId>3</_mId>
+  </memeClass>
+</ArrayOfMemeClass>
